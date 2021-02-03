@@ -1,0 +1,26 @@
+.header {
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    color: #fff;
+    height: 8vh;
+    width: 96%;   
+    padding: 10px 30px; 
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 16px;
+    font-weight: 600;
+}
+.nav-Links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.nav-Links li {
+    padding: 0 4px;
+}
+.nav-Links li img {
+    transform: scale(0.45);
+}

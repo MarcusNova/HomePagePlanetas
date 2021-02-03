@@ -1,0 +1,58 @@
+section {
+  height: 100vh;
+  overflow: hidden;
+}
+.bg img {
+  height: 110vh;
+  width: 110%;
+  filter: brightness(0.6);
+}
+.rock1 {
+  position: absolute !important;
+  left: 10vh !important;
+  top: 20vh !important;
+}
+.rock1 img {
+  width: 40%;
+  filter: brightness(0.5);
+}
+.earth img {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 34vw;
+  top: 20vh;
+  z-index: 1;
+  filter: brightness(0.7);
+}
+.mid {
+  left: -150px !important;
+  bottom: -100px !important;
+  top: unset !important;
+}
+.mid img {
+  width: 93%;
+  z-index: 2;
+  left: -20px;
+  top: 25vh !important;
+  filter: brightness(0.8);
+}
+.scene-Title h1 {
+    font-size: 5vw;
+    color: #fff;
+    letter-spacing: 20px;
+    position: absolute;
+    top: 37vh;
+    left: 34vw;
+}
+.fore {
+    right: -50px !important;
+    top: 0px !important;
+    left: unset !important;
+}
+.fore img {
+    width: 400px;
+    height: 110vh;
+    z-index: 3;
+    filter:brightness(0.5);
+}
